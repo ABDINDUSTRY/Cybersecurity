@@ -1,0 +1,95 @@
+    PID TTY          TIME CMD
+ 236460 pts/0    00:00:00 bash
+ 252581 pts/0    00:00:00 ps
+    PID TTY          TIME CMD
+ 236460 pts/0    00:00:00 bash
+ 252611 pts/0    00:00:00 ps
+21213015  233373  0.0  0.0 240112  9896 ?        Sl   16:01   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+21213015  233376  0.0  0.0 520500 20312 ?        Ssl  16:01   0:01 /usr/libexec/gnome-session-binary
+21213015  233390  0.0  0.0   8904  2228 ?        S    16:01   0:00 dbus-launch --autolaunch 1e2e74976d0a4e3f8e76eff9c2df9d85 --binary-syntax --close-stderr
+21213015  233391  0.0  0.0   7808  2356 ?        Ss   16:01   0:00 /usr/bin/dbus-daemon --syslog-only --fork --print-pid 5 --print-address 7 --session
+21213015  233451  0.0  0.0   8904  2060 ?        S    16:01   0:00 /usr/bin/dbus-launch --exit-with-session --sh-syntax
+21213015  233452  0.0  0.0   9084  3780 ?        Ss   16:01   0:02 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+21213015  233467  0.0  0.0   9512   816 ?        Ss   16:01   0:00 /usr/bin/ssh-agent /usr/bin/im-launch /usr/bin/gnome-session
+21213015  233488  0.0  0.0 308800 11184 ?        Sl   16:01   0:00 /usr/libexec/at-spi-bus-launcher
+21213015  233493  0.0  0.0   8072  3772 ?        S    16:01   0:01 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/users/Etu5/21213015/.cache/at-spi/bus_0
+21213015  233515  4.3  1.5 5620012 503232 ?      Sl   16:01   5:56 /usr/bin/gnome-shell
+21213015  233526  0.0  0.0 237732 10192 ?        Sl   16:01   0:00 /usr/libexec/gvfsd
+21213015  233558  0.0  0.0 235068 10952 ?        Sl   16:01   0:00 /usr/libexec/xdg-permission-store
+21213015  233560  0.0  0.0 581108 19288 ?        Sl   16:01   0:00 /usr/libexec/gnome-shell-calendar-server
+21213015  233570  0.0  0.1 1158968 52648 ?       Sl   16:01   0:00 /usr/libexec/evolution-source-registry
+21213015  233580  0.0  0.1 606360 44980 ?        Sl   16:01   0:00 /usr/libexec/goa-daemon
+21213015  233602  0.0  0.0 312788 10968 ?        Sl   16:01   0:00 /usr/libexec/goa-identity-service
+21213015  233610  0.0  0.0 816948 28300 ?        Sl   16:01   0:00 /usr/libexec/evolution-calendar-factory
+21213015  233620  0.0  0.1 671028 32928 ?        Sl   16:01   0:00 /usr/libexec/evolution-addressbook-factory
+21213015  233693  0.0  0.0 352692 14572 ?        Sl   16:01   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+21213015  233703  0.0  0.0 233700  8772 ?        Sl   16:01   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+21213015  233708  0.0  0.0 314732 10424 ?        Sl   16:01   0:00 /usr/libexec/gvfs-afc-volume-monitor
+21213015  233714  0.0  0.0 233772 10764 ?        Sl   16:01   0:00 /usr/libexec/gvfs-goa-volume-monitor
+21213015  233719  0.0  0.0 234792  9240 ?        Sl   16:01   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+21213015  233727  0.0  0.0 2588356 31516 ?       Sl   16:01   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+21213015  233730  0.0  0.0 161996  8980 ?        Sl   16:01   0:02 /usr/libexec/at-spi2-registryd --use-gnome-session
+21213015  233747  0.0  0.0 313656 13040 ?        Sl   16:01   0:00 /usr/libexec/gsd-wwan
+21213015  233751  0.0  0.0 382604 11464 ?        Sl   16:01   0:00 /usr/libexec/gsd-usb-protection
+21213015  233754  0.2  0.0 388468 15468 ?        Sl   16:01   0:20 ibus-daemon --panel disable --xim
+21213015  233755  0.0  0.0 519596 31888 ?        Sl   16:01   0:00 /usr/libexec/gsd-media-keys
+21213015  233759  0.0  0.0 455040  8208 ?        Sl   16:01   0:00 /usr/libexec/gsd-rfkill
+21213015  233765  0.0  0.0 307668 11024 ?        Sl   16:01   0:00 /usr/libexec/gsd-a11y-settings
+21213015  233768  0.0  0.0 262644 23168 ?        Sl   16:01   0:00 /usr/libexec/gsd-wacom
+21213015  233778  0.0  0.0 375280 28216 ?        Sl   16:01   0:00 /usr/libexec/gsd-power
+21213015  233782  0.0  0.0 233444  8316 ?        Sl   16:01   0:00 /usr/libexec/gsd-screensaver-proxy
+21213015  233785  0.0  0.0 337228 27712 ?        Sl   16:01   0:00 /usr/libexec/gsd-color
+21213015  233791  0.0  0.0 414376 30040 ?        Sl   16:01   0:01 /usr/libexec/gsd-xsettings
+21213015  233796  0.0  0.0 246556 13512 ?        Sl   16:01   0:00 /usr/libexec/gsd-print-notifications
+21213015  233799  0.0  0.0 463712 14792 ?        Sl   16:01   0:00 /usr/libexec/gsd-sharing
+21213015  233805  0.0  0.0 353392 15628 ?        Sl   16:01   0:00 /usr/libexec/gsd-datetime
+21213015  233809  0.0  0.0 312296 10676 ?        Sl   16:01   0:00 /usr/libexec/gsd-smartcard
+21213015  233816  0.0  0.0 384140 12124 ?        Sl   16:01   0:00 /usr/libexec/gsd-housekeeping
+21213015  233827  0.0  0.0 317340 13416 ?        Sl   16:01   0:00 /usr/libexec/gsd-sound
+21213015  233834  0.0  0.0 335896 23068 ?        Sl   16:01   0:00 /usr/libexec/gsd-keyboard
+21213015  233866  0.0  0.0 2850496 31596 ?       Sl   16:01   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+21213015  233910  0.0  0.0 339688 15856 ?        Sl   16:01   0:00 /usr/libexec/gsd-printer
+21213015  233919  0.0  0.2 939952 84160 ?        Sl   16:01   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+21213015  233922  0.0  0.2 515904 65348 ?        Sl   16:01   0:02 /usr/lib/x86_64-linux-gnu/libexec/kdeconnectd
+21213015  233931  0.0  0.0 231812  8384 ?        Sl   16:01   0:00 /usr/libexec/gsd-disk-utility-notify
+21213015  233937  0.0  0.7 1116960 249724 ?      Sl   16:01   0:03 /usr/bin/gnome-software --gapplication-service
+21213015  233987  0.0  0.0 308292  9444 ?        Sl   16:01   0:00 /usr/libexec/ibus-dconf
+21213015  233988  0.0  0.0 341352 28676 ?        Sl   16:01   0:05 /usr/libexec/ibus-extension-gtk3
+21213015  233991  0.0  0.0 262284 25372 ?        Sl   16:01   0:00 /usr/libexec/ibus-x11 --kill-daemon
+21213015  233993  0.0  0.0 234376  9568 ?        Sl   16:01   0:00 /usr/libexec/ibus-portal
+21213015  234064  0.0  0.0 611908 14624 ?        Sl   16:01   0:00 /usr/libexec/xdg-desktop-portal
+21213015  234083  0.0  0.1 627612 60628 ?        Sl   16:01   0:03 /usr/libexec/xdg-desktop-portal-gnome
+21213015  234195  0.0  0.0 414004 31112 ?        Sl   16:01   0:01 /usr/libexec/xdg-desktop-portal-gtk
+21213015  234287  0.0  0.0 234436  9488 ?        Sl   16:01   0:06 /usr/libexec/ibus-engine-simple
+21213015  234299 10.3  2.4 11955420 812016 ?     Sl   16:01  14:05 /usr/lib/firefox-esr/firefox-esr
+21213015  234396  0.0  0.1 221444 36256 ?        Sl   16:01   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241118130310 -prefsLen 25279 -prefMapSize 248495 -appDir /usr/lib/firefox-esr/browser {945b523d-8a81-471c-b229-52144f41ead6} 234299 true socket
+21213015  234414  0.2  0.4 2487912 136848 ?      Sl   16:01   0:24 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isForBrowser -prefsLen 25419 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {741e0ada-8b83-4114-b943-c1da90663795} 234299 true tab
+21213015  234467  0.0  0.3 2458252 101980 ?      Sl   16:02   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 2 -isForBrowser -prefsLen 30964 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {28367a93-a2e1-4b03-b557-06105021ee82} 234299 true tab
+21213015  234546  0.2  0.1 384796 58140 ?        Sl   16:02   0:16 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241118130310 -sandboxingKind 0 -prefsLen 30856 -prefMapSize 248495 -appDir /usr/lib/firefox-esr/browser {24a8cd4b-c8e8-44c3-a34e-eb58db2a9dcd} 234299 true utility
+21213015  234770  0.2  0.1 437292 59876 ?        Sl   16:02   0:22 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20241118130310 -prefsLen 31300 -prefMapSize 248495 -appDir /usr/lib/firefox-esr/browser {b3990ab0-e221-4164-b811-c3fe08ca1027} 234299 true rdd
+21213015  234803  0.0  0.0  32368 11136 ?        Sl   16:02   0:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+21213015  234841  0.0  0.0 116148 10164 ?        Ssl  16:02   0:00 /usr/bin/speech-dispatcher --spawn --communication-method unix_socket --socket-path /users/Etu5/21213015/.cache/speech-dispatcher/speechd.sock
+21213015  234860  0.0  0.0 160540  9132 ?        Sl   16:02   0:00 /usr/libexec/gvfsd-metadata
+21213015  234922  0.0  0.0 156616  6028 ?        Sl   16:02   0:00 /usr/libexec/dconf-service
+21213015  235583  5.1  1.3 2931992 449976 ?      Sl   16:07   6:47 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 17 -isForBrowser -prefsLen 29001 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {6e55c597-ad1e-47e5-8aab-75aa5979cc69} 234299 true tab
+21213015  236196  0.0  0.2 936796 96148 ?        Sl   16:12   0:00 /usr/bin/gnome-calendar --gapplication-service
+21213015  236206  1.0  0.2 557768 65672 ?        Sl   16:12   1:18 /usr/libexec/gnome-terminal-server
+21213015  236235  0.0  0.0 398840 19412 ?        Sl   16:12   0:00 /usr/libexec/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+21213015  236460  0.0  0.0  10464  4692 pts/0    Ss   16:12   0:00 bash
+21213015  237115  0.0  0.0 316060 13020 ?        Sl   16:19   0:00 /usr/libexec/gvfsd-recent --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+21213015  237309  0.0  0.0 386072 10768 ?        Sl   16:20   0:00 /usr/libexec/gvfsd-network --spawner :1.10 /org/gtk/gvfs/exec_spaw/2
+21213015  237324  0.0  0.0 312980 10636 ?        Sl   16:20   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.10 /org/gtk/gvfs/exec_spaw/4
+21213015  237663  2.3  0.6 2709888 221848 ?      Sl   16:22   2:41 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 20 -isForBrowser -prefsLen 29049 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {5d91f9b7-8e04-4ba8-aad7-f1c75ae495c2} 234299 true tab
+21213015  238045  0.2  0.3 2447344 112644 ?      Sl   16:24   0:19 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 23 -isForBrowser -prefsLen 29049 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {01c2ce8b-4bae-4b53-932f-55b0df6e846d} 234299 true tab
+21213015  249233  0.2  0.5 2562132 189820 ?      Sl   17:53   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 27 -isForBrowser -prefsLen 29148 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {4119dde0-1490-4d78-aa56-df4c8af60d0b} 234299 true tab
+21213015  249455  0.0  0.2 2417376 80132 ?       Sl   17:55   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 28 -isForBrowser -prefsLen 29148 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {288bb1c9-06b9-49cc-b969-47e5b7a4ecdf} 234299 true tab
+21213015  249485  0.0  0.2 2417376 80216 ?       Sl   17:55   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 29 -isForBrowser -prefsLen 29148 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {769aaa3d-2354-46d8-8e60-c9dee1904fc2} 234299 true tab
+21213015  249692  0.1  0.0 663968 31596 ?        SNl  17:57   0:02 /usr/libexec/tracker-miner-fs-3
+21213015  251759  1.7  0.3 1062556 129100 ?      Sl   18:12   0:06 /usr/bin/nautilus --gapplication-service
+21213015  252397  0.1  0.2 2417392 77924 ?       Sl   18:16   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 30 -isForBrowser -prefsLen 29148 -prefMapSize 248495 -jsInitLen 234780 -parentBuildID 20241118130310 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser {6968b859-3696-4785-90c3-dd6f981595dd} 234299 true tab
+21213015  252655  300  0.0  10412  4348 pts/0    R+   18:18   0:00 ps -aux
+21213015  252656  0.0  0.0   6504  2116 pts/0    S+   18:18   0:00 grep ^21213015
+    PID TTY          TIME CMD
+ 236460 pts/0    00:00:00 bash
+ 252745 pts/0    00:00:00 sleep
+ 252834 pts/0    00:00:00 ps
