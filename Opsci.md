@@ -41,13 +41,13 @@ Certaines de ces configurations doivent &ecirc;tre coh&eacute;rentes avec celle 
 ##### R&eacute;sultat attendu:
 
 Strapi est lanc&eacute; correctement :
-<img src="img/runstrapi.png"/>
+<img src="https://www-npa.lip6.fr/~buixuan/files/opsci2024/img/runstrapi.png"/>
 
 Se connecter avec un administrateur :
-<img src="img/admin.png"/>
+<img src="https://www-npa.lip6.fr/~buixuan/files/opsci2024/img/admin.png"/>
 
 Cr&eacute;er la collection `product` :
-<img src="img/cms.png"/>
+<img src="https://www-npa.lip6.fr/~buixuan/files/opsci2024/img/cms.png"/>
 
 _Attention! si la collection `product` n'est pas cr&eacute;&eacute; ou mal cr&eacute;&eacute; le frontend pourrait avoir des erreurs_
 
@@ -90,7 +90,7 @@ Il faudra l'ajouter dans la configuration du frontend._
 
 R&eacute;sultat attendu (les deux &eacute;l&egrave;ments sont des produits cr&eacute;&eacute; dans strapi):
 
-<img src="img/react.png"/>
+<img src="https://www-npa.lip6.fr/~buixuan/files/opsci2024/img/react.png"/>
 
 ### Travail attendu
 
@@ -181,7 +181,7 @@ On souhaite cr&eacute;er un syst&egrave;me permettant d'int&eacute;grer de grand
 
 Pour &ccedil;a on utilise un message broker: Kafka.
 
-<img src="./img/projet2.png"/>
+<img src="https://www-npa.lip6.fr/~buixuan/files/opsci2024/img/projet2.png"/>
 
 #### Kafka
 
