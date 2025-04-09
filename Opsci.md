@@ -252,7 +252,7 @@ Pensez bien &agrave; lire les readme des diff&eacute;rents &eacute;l&egrave;ment
 
 <a href="https://hub.docker.com/repository/docker/arthurescriou/product-producer/" > https://hub.docker.com/repository/docker/arthurescriou/product-producer/ </a>
 
-Pour lancer la cr&eacute;ation de `product` ins&eacute;rez le <a href="./assets/products.csv" >fichier</a> dans votre container et sp&eacute;cifiez sa position dans la configuration.
+Pour lancer la cr&eacute;ation de `product` ins&eacute;rez le <a href="https://www-npa.lip6.fr/~buixuan/files/opsci2024/assets/products.csv" >fichier</a> dans votre container et sp&eacute;cifiez sa position dans la configuration.
 
 ##### product-consumer
 
