@@ -1,8 +1,3 @@
-Parfait 🙌 tu veux un rendu **propre en Markdown (.md)** façon documentation GitHub.
-J’ai repris tout ton contenu et l’ai structuré avec titres, sous-titres, blocs de code et images.
-
-Voici la version `.md` soignée :
-
 ````markdown
 # 📌 Introduction à Metasploit (msfconsole)
 
@@ -206,8 +201,4 @@ Exemple avec `auxiliary/scanner/ssh/ssh_login` :
 
 ---
 
-```
-
-👉 Ce rendu en **Markdown** est prêt à être collé dans ton dépôt GitHub.  
-Veux-tu que je t’ajoute aussi une **table des matières cliquable** en haut du fichier pour naviguer facilement entre les sections ?
 ```
